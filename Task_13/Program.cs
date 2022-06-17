@@ -7,7 +7,7 @@
 Console.Clear();
 Console.WriteLine("****************************************");
 Console.WriteLine("Введите произвольное число:");
-int N = Convert.ToInt32(Console.ReadLine());
+int N = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
 if (N / 100 == 0) // Проверяем наличие третьего числа
 {
