@@ -7,7 +7,7 @@ Console.WriteLine("***************************************************");
 Console.WriteLine("****Программа рассчета депозита через N месяцев****");
 double dep = 1000;
 
-Console.WriteLine($"Сумма депозита на начало равна {dep}");
+Console.WriteLine($"Сумма депозита на начало равна {dep} руб.");
 Console.WriteLine("Введите количество месяцев:");
 int N = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
